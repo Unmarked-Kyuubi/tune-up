@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Favicon Markup goes here: Realfavicongenerator.net. Make it something like this -->
+
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="../../assets/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="../../assets/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="../../assets/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="../../assets/favicon/site.webmanifest" />
+		<link
+			rel="mask-icon"
+			href="../../assets/favicon/safari-pinned-tab.svg"
+			color="#5bbad5"
+		/>
+		<meta name="msapplication-TileColor" content="#00aba9" />
+		<meta name="theme-color" content="#edf9f8" />
+		<link rel="icon" type="image/svg+xml" href="../../assets/favicon/favicon.svg" />
+		<link rel="icon" type="image/png" href="../../assets/favicon/favicon.png" />
+		<title>TuneUp</title>
+
+		<!-- CSS & SCSS Styles -->
+
+		<script type="module" crossorigin src="/js/main-psd.es.async.js"></script>
+		<link rel="stylesheet" crossorigin href="../main-psd.asset.css">
+	</head>
+
+	<body>
+		<!-- Header -->
+		<header class="header__wrapper">
+			<a href="index.html" class="logo__wrapper"
+				><img
+					src="/assets/logo-color-inv-psd.asset.svg"
+					class="logo"
+					alt="TuneUp Alternative"
+			/></a>
+			<section class="header">
+				<div class="header__right">
+					<nav class="desktop-nav">
+						<ul class="desktop-nav__list ">
+							<li class="desktop-nav__list-item ">
+								<a href="../index.html" class="desktop-nav__list-link  ">Home</a>
+							</li>
+							<li class="desktop-nav__list-item">
+								<a href="../about/index.html" class="desktop-nav__list-link">About</a>
+							</li>
+							<li class="desktop-nav__list-item">
+								<a href="../blog/index.html" class="desktop-nav__list-link  ">Blog</a>
+							</li>
+							<li class=" desktop-nav__list-item desktop-nav__list-item--dropdown">
+								<div class="desktop-nav__list-item-dropdown-wrapper">
+									<a   class="desktop-nav__list-link desktop-nav__list-link">Resources</a>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="32"
+										height="32"
+										fill="none"
+										class="desktop-nav__list-item-img--dropdown"
+										viewBox="0 0 256 256"
+									>
+										<path
+											d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"
+										></path>
+									</svg>
+								</div>
+								<ul class="desktop-nav__dropdown-list">
+									<li class="desktop-nav__dropdown-list-item">
+										<a href="../services/index.html" class="desktop-nav__dropdown-list-link">Services</a>
+									</li>
+									<li class="desktop-nav__dropdown-list-item">
+										<a href="../packages/index.html" class="desktop-nav__dropdown-list-link">Packages</a>
+									</li>
+									<li class="desktop-nav__dropdown-list-item">
+										<a href="../team/index.html" class="desktop-nav__dropdown-list-link">Team</a>
+									</li>
+									<li class="desktop-nav__dropdown-list-item">
+										<a href="../contact/index.html" class="desktop-nav__dropdown-list-link">Contact</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+
+					</nav>
+
+					<div class="cart">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="32"
+							height="32"
+							fill="#000000"
+							viewBox="0 0 256 256"
+						>
+							<path
+								d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"
+								class="cart__img"
+							></path>
+						</svg>
+					</div>
+					<a href="#" class="header__cta">Get Started</a>
+					<section class="nav__wrapper">
+						<button class="nav__button">
+							<div class="nav__button-box">
+								<div class="nav__button-item"></div>
+							</div>
+						</button>
+						<!-- Navigation -->
+						<nav class="nav">
+							<ul class="nav__list">
+								<li class="nav__list-item">
+									<a href="../index.html" class="nav__list-link">Home</a>
+								</li>
+								<li class="nav__list-item">
+									<a href="../about/index.html" class="nav__list-link">About</a>
+								</li>
+								<li class="nav__list-item">
+									<a href="../blog/index.html" class="nav__list-link">Blog</a>
+								</li>
+								<li class="nav__list-item nav__list-item--dropdown">
+									<div class="nav__list-item-dropdown-wrapper">
+										<a   class="nav__list-link">Resources</a>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="32"
+											height="32"
+											fill="none"
+											class="nav__list-item-img--dropdown"
+											viewBox="0 0 256 256"
+										>
+											<path
+												d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z"
+											></path>
+										</svg>
+									</div>
+									<ul class="nav__dropdown-list">
+										<li class="nav__dropdown-list-item">
+											<a href="../services/index.html" class="nav__dropdown-list-link">Services</a>
+										</li>
+										<li class="nav__dropdown-list-item">
+											<a href="../packages/index.html" class="nav__dropdown-list-link">Packages</a>
+										</li>
+										<li class="nav__dropdown-list-item">
+											<a href="../team/index.html" class="nav__dropdown-list-link">Team</a>
+										</li>
+										<li class="nav__dropdown-list-item">
+											<a href="../contact/index.html" class="nav__dropdown-list-link">Contact</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<a href="#" class="nav__cta-link primary-link">Get Started</a>
+						</nav>
+
+
+					</section>
+				</div>
+			</section>
+		</header>
+
+
+		<main class="blog-page">
+			<!-- HERO SECTION  -->
+			<section class="hero__wrapper hero__wrapper--about">
+				<div class="hero__wrapper-bg hero__wrapper-bg--about"></div>
+				<!-- <div class="about__graphic"></div> -->
+				<div class="hero">
+					<p class="subheading hero__subheading">Blog</p>
+					<h1 class="hero__title">Articles & Resources</h1>
+					<p class="hero__description">
+						At vitae commodo amet libero tortor blandit risus condimentum mauris. cras arcu tortor aenean turpis massa mauris ac mi facilisi cursus aliquam a ac.
+
+					</p>
+
+				</div>
+				<div class="hero__img">
+				</div>
+			</section>
+
+
+
+		<!-- TEAMS SECTION -->
+
+		<article class="team__container team__container--about">
+			<div class="team team--team">
+				 <div class="team__text-container team__text-container--about">
+					<div class="">
+
+						<h2 class="team__title team__title--about title">
+							latest Posts
+						</h2>
+					</div>
+					<a
+						href="../team/index.html"
+						class="hero__cta-link hero__cta-link--primary primary-link team__cta-link--about"
+						>Veiw More
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="32"
+							height="32"
+							fill="none"
+							class="hero__cta-icon--primary"
+							viewBox="0 0 256 256"
+						>	<path
+						d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+					></path></svg
+			></a>
+				</div>
+				<div class="team__member-container">
+					<!-- TEAM  MEMBER 1-->
+					<a href="#" class="team__member team__member--about">
+						<img
+							class="team__member-img"
+							src="/assets/article-fuel-sat-psd.asset.jpg"
+							alt="William Devoe"
+						/>
+						<div class="team__member-text-container">
+							<div class="team__member-background"></div>
+							<p class="team__member-name">
+
+Fuel is expensive cars and why they're better</p>
+
+
+								</p>
+
+							<button
+href="#"
+class="hero__cta-link hero__cta-link--secondary secondary-link packages__cta-link servcies__cta-link"
+>Get Started<span>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="32"
+		height="32"
+		fill="none"
+		class="packages__cta-icon"
+		viewBox="0 0 256 256"
+	>
+		<path
+			d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+		></path>
+	</svg> </span
+></button>
+						</div>
+					</a>
+					<!-- TEAM  MEMBER 2-->
+					<a href="#" class="team__member team__member--about">
+						<img
+							class="team__member-img"
+							src="/assets/article-car-shape-psd.asset.jpg"
+							alt="William Devoe"
+						/>
+						<div class="team__member-text-container">
+							<div class="team__member-background"></div>
+							<p class="team__member-name">
+Next-gen electric cars and why they're better</p>
+
+							<button
+							href="#"
+							class="hero__cta-link hero__cta-link--secondary secondary-link packages__cta-link servcies__cta-link"
+							>Get Started<span>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="32"
+									height="32"
+									fill="none"
+									class="packages__cta-icon"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+									></path>
+								</svg> </span
+							></button>
+						</div>
+					</a>
+					<!-- TEAM  MEMBER 3-->
+					<a href="#" class="team__member team__member--about">
+						<img
+							class="team__member-img"
+							src="/assets/article-used-cars-psd.asset.jpg"
+							alt="William Devoe"
+						/>
+						<div class="team__member-text-container">
+							<div class="team__member-background"></div>
+							<p class="team__member-name">
+
+What are the best options if i want a used car in 2024?</p>
+
+							<button
+							href="#"
+							class="hero__cta-link hero__cta-link--secondary secondary-link packages__cta-link servcies__cta-link"
+							>Get Started<span>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="32"
+									height="32"
+									fill="none"
+									class="packages__cta-icon"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+									></path>
+								</svg> </span
+							></button>
+						</div>
+					</a>
+					<!-- TEAM  MEMBER 4-->
+					<a href="#" class="team__member team__member--about">
+						<img
+							class="team__member-img"
+							src="/assets/service-maintenance-psd.asset.jpg"
+							alt="William Devoe"
+						/>
+						<div class="team__member-text-container">
+							<div class="team__member-background"></div>
+							<p class="team__member-name">
+
+
+What are the best options if i want a used car in 2024?</p>
+
+							<button
+							href="#"
+							class="hero__cta-link hero__cta-link--secondary secondary-link packages__cta-link servcies__cta-link"
+							>Get Started<span>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="32"
+									height="32"
+									fill="none"
+									class="packages__cta-icon"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+									></path>
+								</svg> </span
+							></button>
+						</div>
+					</a>
+					<!-- TEAM  MEMBER 5-->
+					<a href="#" class="team__member team__member--about">
+						<img
+							class="team__member-img"
+							src="/assets/service-brakes-sat-psd.asset.jpg"
+							alt="William Devoe"
+						/>
+						<div class="team__member-text-container">
+							<div class="team__member-background"></div>
+							<p class="team__member-name">
+
+Fuel is expensive cars and why they're better</p>
+
+
+							<button
+							href="#"
+							class="hero__cta-link hero__cta-link--secondary secondary-link packages__cta-link servcies__cta-link"
+							>Get Started<span>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="32"
+									height="32"
+									fill="none"
+									class="packages__cta-icon"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+									></path>
+								</svg> </span
+							></button>
+						</div>
+					</a>
+					<!-- TEAM  MEMBER 6-->
+					<a href="#" class="team__member team__member--about">
+						<img
+							class="team__member-img"
+							src="/assets/article-paint-psd.asset.jpg"
+							alt="William Devoe"
+						/>
+						<div class="team__member-text-container">
+							<div class="team__member-background"></div>
+							<p class="team__member-name">
+Next-gen electric cars and why they're better</p>
+
+
+							<button
+							href="#"
+							class="hero__cta-link hero__cta-link--secondary secondary-link packages__cta-link servcies__cta-link"
+							>Get Started<span>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="32"
+									height="32"
+									fill="none"
+									class="packages__cta-icon"
+									viewBox="0 0 256 256"
+								>
+									<path
+										d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+									></path>
+								</svg> </span
+							></button>
+						</div>
+					</a>
+				</div>
+			</div>
+		</article>
+
+
+
+
+
+
+
+
+
+		</main>
+
+		<footer class="footer__container footer__container--team">
+			<div class="blog__graphic blog__graphic--down footer__graphic--about"></div>
+			<section class="footer container">
+				<ul class="footer__list footer__list--nav">
+					<p class="footer__list-title">Navigate</p>
+					<li class="footer__list-item"><a href="../index.html" class="footer__list-link">Home</a></li>
+					<li class="footer__list-item"><a href="../about/index.html" class="footer__list-link">About</a></li>
+					<li class="footer__list-item"><a href="../blog/index.html" class="footer__list-link">Blog</a></li>
+				</ul>
+				<ul class="footer__list footer__list--resource">
+					<p class="footer__list-title">REsources</p>
+					<li class="footer__list-item"><a href="../services/index.html" class="footer__list-link">Services</a></li>
+					<li class="footer__list-item"><a href="../packages/index.html" class="footer__list-link">Packages</a></li>
+					<li class="footer__list-item"><a href="../team/index.html" class="footer__list-link">Team</a></li>
+				</ul>
+				<ul class="footer__list footer__list--contact">
+					<p class="footer__list-title">Contact</p>
+					<li class="footer__list-item"><a href="tel:5867173660" class="footer__list-link">(586) 717-3660</a></li>
+					<li class="footer__list-item"><a href="mailto:tuneup@carlio.com" class="footer__list-link">tuneup@carlio.com</a></li>
+					<li class="footer__list-item footer__list-item--address"><a href="maps.google.com" class="footer__list-link">3123 Haymond Rocks Road Carter Lake, OR 976048</a></li>
+				</ul>
+
+				<section class="footer__end">
+					<img src="/assets/logo-color-inv-psd.asset.svg" alt="Tune Up Logo" class="logo footer__logo">
+					<div class="footer__end-text">Copyright &copy; TuneUp 2012 | Powered by the People</div>
+				</section>
+
+			</section>
+		</footer>
+
+<!-- TEST SECTION -->
+
+
+	</body>
+</html>
+
+<!--
+	TODO
+	1: PAge animates on load and on scroll
+	2: CART STYLES AND JS
+3: CArousel for services section
+
+4: Loading animation for page
+5: slideshow js
+6: AT the end link all the links at all the alts
+add the animate on scroll for everything work on cart logic
+7: Fix carousel for services and testimonies
+
+	ABOUT
+	CHANGE ALL THE FILLER IMAGES TO ACTUAL IMAGES
+	CHnage the width and height of the hamburger button
+-->
