@@ -2403,7 +2403,7 @@ a.packages__cta-link:any-link {
   /* style.scss | http://localhost:6969/scss/style.scss?t=1710402860475 */
 }
 .packages-page .packages-main__card {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1fr 1fr;
 }
 .packages-page .packages-main__card img {
@@ -3798,9 +3798,14 @@ a.packages__cta-link:any-link {
 
 } */
 
-.services-body, .about-body {
+.services-body, .about-body, .blog-home {
   background-color: var(--gray-200);
 }
+
+.blog-page {
+  padding-bottom: var(--sp-xl);
+}
+
 
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
@@ -3816,3 +3821,5 @@ a.packages__cta-link:any-link {
     animation-iteration-count: 1 !important;
   }
 }
+
+
